@@ -1,0 +1,190 @@
+﻿#mesTable .unread{font-weight:bold;}
+#mesTable .read{font-weight:normal; background-color:#fafafa; color:#62589b;}
+#mesTable .read, #mesTable .unread {cursor:pointer; }
+#mesTable .read:hover, #mesTable .unread:hover{background-color:#f5f5f5;}
+#mesTable{
+	width:100%;
+	border:1px solid #ccc;
+	border-collapse:collapse;
+}
+#mesTable th{
+	height:20px;
+	background:url(/img/background/msgTableTh.gif);
+	padding:5px;
+	color:#6a6a6a;
+	font-weight:normal;
+	text-align:left;
+}
+#mesTable td{
+	padding:5px;
+	border-top:1px solid #dedede;
+	border-bottom:1px solid #dedede;
+}
+.unread .colOrder{
+	color:blue;
+}
+.read .colOrder{
+	color:#6767ff;
+}
+.colOrder, .colUpdated{
+	white-space:nowrap;
+}
+
+.mesPanel{margin-top:19px;}
+.mesPanel h2{color:#6a6a6a; margin-bottom:5px;}
+.mesPanel div{height:2px; overflow:hidden; margin:0px; background:url('/img/icon/hr_bg_175.gif') repeat-y left;}
+.mesPanel ul{margin:5px 0px; padding:0px;}
+.mesPanel li{list-style:none; height:21px; line-height:21px; cursor:pointer; background:url('/img/icon/arrow_4.gif') no-repeat 0px; padding-left:20px; color:#6a6a6a;}
+.mesPanel li:hover {color:Red;}
+#panelCreate{background:url('/img/icon/msg_send.gif') no-repeat 0px;}
+#panelSession{background:url('/img/icon/msg_all.gif') no-repeat 0px;}
+#panelOrder{background:url('/img/icon/msg_order.gif') no-repeat 0px;}
+
+#mesTitle{margin:5px 0px 20px; background:url('/img/icon/arrow_1.gif') no-repeat 0px 0px; padding-left:17px; font-size:12px; color:#483D8B;}
+
+.thisHr1{ background-color:#696969; overflow:hidden; width:700px; margin:0px; height:2px;}   /* overflow:hidden; 兼容IE6*/
+.wait { background:url(/img/icon/loading1.gif) no-repeat right center;}
+/*
+#sendMessDiv div{ margin-top:8px;}
+.sessionNumber input {width:468px;}
+.mesSubject input { width:505px;}
+.mesContent textarea { width:550px; height:270px;}
+*/
+.sendSession, .getSession, .mesArea, .getOrder{
+	padding:10px 0px 20px 10px;
+	min-height:450px;
+	_height:450px;
+}
+.sendSession  h2, .mesArea h2{
+	*margin:5px 0px;
+	color:#483D8B;
+}
+.sendSession  h2{
+	text-transform:capitalize;
+}
+.sendSession ul{
+	padding:0px;
+	*margin:5px 0px;
+	list-style:none;
+	line-height:200%;
+}
+.sessionNumber li{
+	margin-left:20px;
+}
+#sessionNumber{
+	height:12px;
+	margin-left:5px;
+}
+#hrefOrder{
+	color:blue;
+	text-decoration:underline;
+	margin-left:10px;
+}
+#hrefOrder:hover{
+	color:red;
+}
+#mesSubject{
+	width:630px;
+	height:12px;
+	margin-left:15px;
+}
+#mesContent{
+	width:630px;
+	height:300px;
+	margin-left:5px;
+}
+.mesContent2{
+	margin-top:15px;
+}
+.mesContent2 label{
+	vertical-align:top;
+	position:relative;
+	top:-5px;
+	*top:0px;
+}
+#submitSession{
+	margin-left:350px;
+}
+.relatedOrder, .relatedOrder a{
+	color:blue;
+}
+.mesTo, .mesFrom{
+	border:1px solid #ccc;
+	padding:10px;
+	margin-top:40px;
+	line-height:180%;
+	position:relative;
+	-webkit-box-shadow:2px 4px 7px #666;
+	border-radius:5px;
+}
+.mesTo{
+	margin-right:100px;
+	background-color:#fcfcff;
+}
+.mesFrom{
+	margin-left:100px;
+	background-color:#fefcfa;
+}
+.mesTitle{
+	color:#666;
+}
+.date1{
+	margin-left:5px;
+}
+.mesTo .bubblesImg{
+	width:56px;
+	height:28px;
+	background:url(/img/background/bubbles_to.gif) no-repeat;
+	position:absolute;
+	left:0px;
+	top:-28px;
+	_top:-27px;
+}
+.mesFrom .bubblesImg{
+	width:56px;
+	height:28px;
+	background:url(/img/background/bubbles_from.gif) no-repeat;
+	position:absolute;
+	right:0px;
+	top:-28px;
+	_top:-27px;
+}
+.mesContent{
+	border:1px solid #ddd;
+	background-color:white;
+	padding:10px;
+}
+.mesArea textarea{
+	width:790px;
+	margin-left:10px;
+	min-height:200px;
+	_height:200px;
+}
+.mesArea input{
+	margin:10px 0px 20px 370px;
+}
+.replyInfo{
+	margin-top:50px;
+	border-top:2px solid #6a6a6a;
+	padding:10px 0px 12px 45px;
+	font-size:14px;
+	font-weight:bold;
+	color:#6a6a6a;
+	background:url(../img/icon/reply.gif) no-repeat 5px 5px;
+}
+.getOrder .tip1{
+	float:left;
+	margin-top:10px;
+	margin-bottom:5px;
+}
+#newOrderMsg{
+	float:right;
+	margin-top:10px;
+	margin-bottom:5px;
+	cursor:pointer;
+	color:blue;
+	text-decoration:underline;
+}
+#newOrderMsg:hover{
+	color:red;
+}

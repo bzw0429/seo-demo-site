@@ -1,0 +1,76 @@
+﻿.wrapRow 
+{
+    width: 824px;
+    margin: 20px 0px;
+    border-left: 1px solid #ccc;
+    border-top: 1px solid #ccc;
+}
+.wrapCell
+{
+    float: left;
+    position: relative;
+}
+.wrapCell:nth-child(odd) .wrapCell-header 
+{
+    background-color: #72bf44;
+}
+.wrapCell:nth-child(even) .wrapCell-header 
+{
+    background-color: #CD5C5C;
+}
+.mfrLogo-bg{ position: absolute; right: 5px; top: -12px; }
+.mfrLogo{ position: absolute; right: 9px; top: -10px; }
+.wrapCell-header 
+{
+    overflow: hidden;
+    padding: 5px 5px;
+    border-right: 1px solid #ccc;
+    border-bottom: 1px solid #ccc;
+    *background-color: #72bf44; /* IE678 */
+    _background-color: #72bf44;
+    background-color: #72bf44\9;
+}
+.wrapCell-header h2{ font-size: 1.5em; margin: 0px; color: #fff; font-family: '微软雅黑'; }
+.wrapCell a
+{
+    display: block;
+    text-align: center;
+    text-decoration: none;
+    color: #666;
+    width: 102px;
+    padding: 7px 0px;
+    float: left;
+    border-right: 1px solid #ccc;
+    border-bottom: 1px solid #ccc;
+}
+.wrapCell a:hover
+{
+    padding: 7px 0 1px;
+    border-bottom: 7px solid #f00;
+}
+.wrapCell p
+{
+    margin: 0px;
+}
+        
+        
+.defaultx2 .wrapCell
+{
+    width: 206px;
+}
+.defaultx1 .wrapCell
+{
+    width: 103px;
+}
+/* 
+加上.wrapRow，是为了提高优先级
+优先级：.wrapRow .overwritex3 > .defaultx1 .wrapCell > .overwritex3
+*/
+.wrapRow .overwritex2
+{
+    width: 206px;
+}
+.wrapRow .overwritex8
+{
+    width: 824px;
+}

@@ -1,0 +1,136 @@
+body
+{
+    font-family:'Arial' 'sans-serif';
+    font-size:12px;
+    color:#483D8B;
+    margin:0px;
+    padding:0px;
+}
+body a{ color:#483D8B; text-decoration:none;}
+body a:hover{ color:Red;}
+body img{ border-style:none;}
+.hrStyle{ background-color:#696969; overflow:hidden; width:100%; margin:0px; height:1px;}   /* overflow:hidden; 兼容IE6*/
+.h1Style{font-size:16px; font-weight:bold; color:#0742B8; margin:8px 0px;}
+/*h1, h2, h3, h4{ margin:0px;}*/
+h1 {
+	font-size: 16px;
+	color: #0742B8;
+}
+h2 {
+	font-size: 14px;
+	color: #696969;
+}
+
+
+/*header的样式*/
+#header{ background:url('/img/icon/top_bg.gif') no-repeat left; width:1024px; height:105px;}
+#mainNav{ float:left; margin-top:64px; margin-left:-201px;}
+#mainNav a {float:left; margin-left:-1px; width:85px; height:17px; color:White; border:1px solid White; border-top-style:none; border-bottom-style:none; text-align:center; font-weight:bold;}
+#mainNav a:hover{ background-color:#72BF44;}
+#header h2 {float:left; color:Orange; margin-left:85px; margin-top:31px; font-size:18px;}
+#logo{ margin-left:17px; margin-top:12px; float:left;}
+#sTxt{ float:left; margin-top:37px; width:180px; height:16px; position:relative; margin-left:80px; color:Gray;}
+#sButton{ height:30px; width:30px; float:left; margin-top:33px; margin-left:3px;}
+#bgRepeat1 .userState{ float:left; margin-top:-86px; width:1024px;}
+#bgRepeat1 .userState div{ float:right;}
+#bgRepeat1 .userState a{ margin-left:8px; text-decoration:underline;}
+#bgRepeat1 {background:url('/img/icon/top_bg_extend.gif') repeat-x top; width:100%;}
+
+/*sidebar的样式*/
+#sidebar1{ margin-top:19px;}
+#sidebar1 h2{font-size:14px; margin-bottom:5px; color:darkSlateBlue;}
+#sidebar1 div{ height:2px; overflow:hidden; margin:0px; background:url('/img/icon/hr_bg_175_2.gif') repeat-y left;}
+#sidebar1 ul{ margin:5px 0px; list-style-position:inside;}
+#sidebar1 li{ list-style:none; margin-left:-40px; height:21px; line-height:21px; *margin-left:-16px;}
+#sidebar1 a{ background:url('/img/icon/arrow_3.gif') no-repeat 0px; padding-left:20px;}
+#barSpace table img{ margin-top:-9px; *margin-top:-1px;}    /*兼容老网站*/
+
+/*footer的样式*/
+#bgRepeat2{ border-top:2px solid #72BF44; float:left; width:100%;}
+#footer{ width:1024px; text-align:center; margin-top:20px;}
+#footer p{ margin:5px 0px; color:#0742B8;}
+#footer a{ font-weight:bold;}
+
+/*currentPath的样式，该具体内容放在子页面中，但样式由这里设置*/
+#currentPath{ margin:5px 0px 20px;}
+#currentPath span, #currentPath a{background:url('/img/icon/arrow_1.gif') no-repeat 0px 1px; padding-left:17px;}
+#currentPath a{ text-decoration:underline;}
+#currentPath span{ font-weight:bold;}
+
+
+.selecTable {
+	border-collapse: collapse;
+	margin: 10px 0px 35px 0px;
+	min-width: 1200px;
+	font-size: 0.8em;
+}
+.selecTable tr:hover {
+	background-color: #fbf7f4;
+}/**/
+.selecTable th, .selecTable td {
+	border: 1px solid #D8D8D8;
+	text-align: center;
+	padding: 0.3em 0.5em;
+}
+.selecTable th {
+	background-color: #B3AAA3;
+	color: white;
+}
+.selecTable td {
+	color: #666;
+}
+.selecTable td:first-child {
+	text-align: left;
+	white-space: nowrap;
+}
+#DistributorWrap #DistributorNavi {
+	margin: 0;
+	padding: 0;
+}
+#DistributorWrap #DistributorNavi li {
+	list-style: none;
+}
+#DistributorWrap #DistributorNavi>li {
+	background: #efe;
+	border-left: solid 3px;
+	padding: .5em;
+	margin-bottom: 2em;
+	font-size: 1.2em;
+	font-weight: bold;
+}
+#DistributorWrap #DistributorNavi>li>ul {
+	margin: 0;
+	padding: 0;
+	font-size: 0.9em;
+	font-weight: normal;
+}
+#DistributorWrap #DistributorNavi>li>ul>li {
+	display: inline-block;
+	margin: 0 1em 0 0;
+}
+#DistributorWrap th {
+	width: 7em;
+}
+#DistributorWrap h3 {
+	margin-top: 50px;
+}
+#DistributorWrap #DistributorLogoList a {
+	display: inline-block;
+	width: 260px;
+	margin: 1em 1.5em 1em 0;
+	padding: 1em;
+	text-align: center;
+	vertical-align: top;
+	border: solid 1px #ddd;
+	box-shadow: 3px 3px 15px 0px #ccc;
+	box-sizing: border-box;/*网站指定了border-box，表现为:左右padding占用了width的值*/
+}
+#DistributorWrap #DistributorLogoList a img {
+	display: block;
+	max-width: 240px;
+	height: 70px;
+	margin: 0 auto 1em;
+}
+.ws-leftTh th {
+	width: 15em;
+}

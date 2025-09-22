@@ -1,0 +1,24 @@
+﻿.tabTitle .bgL{background-image:url('/img/icon/th_1L.gif');  width:10px;}
+.tabTitle .bgR{background-image:url('/img/icon/th_1X.gif');  width:15px;}
+.tabTitle div{height:23px; float:left;}
+.tabTitle h2{height:23px; line-height:23px;  text-align:left; margin:0px; float:left; background-color:#CCC; color:#fff; font-size:14px; font-weight:bold;}
+.tabTitle {height:23px; overflow:auto;}
+#table1{ border-collapse:collapse;}
+#table1 th{ background-color:#EFEFEF; color:#666;}
+#table1 td{ background-color:#FBF7F4; border:1px solid White;}
+#table1 a{ color:#666; text-decoration:underline; font-weight:bold;}
+#table1 a:hover{ color:Red;}
+#table1 tr{ height:26px;}
+.col1{ padding-left:10px; width:270px; text-align:left;}
+.col2{ width:80px; text-align:center;}
+ #pdfUrl{ background:url('/img/icon/PDF_20.gif') no-repeat left center; padding:8px 0px 8px 25px; height:26px; line-height:26px; text-decoration:underline; color:#0742B8; font-weight:bold;}
+ #pdfUrl:hover{color:Red;}
+ 
+#device {padding-top:20px;}
+#deviceImg{border:solid 1px #e7e7e7; padding:10px;}
+#device img{ height:90px; width:120px; margin-right:12px; border:1px solid #eee;}
+#device img:hover{border:1px solid Red;}
+
+/*#cpc {height:200px;} */
+ .cpcDiv{float:left; margin-right:35px; text-align:center; line-height:25px;}
+ .cpcDiv a{display:block;}

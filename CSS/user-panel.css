@@ -1,0 +1,33 @@
+﻿/*user-pannel*/
+#userPanel{margin-top:19px; color:#666;}
+#userPanel h2{font-size:14px; margin-bottom:5px; }
+#userPanel div{ height:2px; overflow:hidden; margin:0px; background:url('/img/icon/hr_bg_175.gif') repeat-y left;}
+#userPanel ul{ margin:5px 0px; list-style-position:inside;}
+#userPanel li{ list-style:none; margin-left:-40px; height:21px; line-height:21px; *margin-left:-16px;}
+#userPanel a{ background:url('/img/icon/arrow_4.gif') no-repeat 0px; padding-left:20px; color:#666;}
+
+/*
+order status bar
+*/
+#OrderStatusBar 
+{
+	list-style: none; line-height: 1.5;
+	margin: 0 0 2em 1em; padding: 0;
+	overflow: hidden;
+}
+#OrderStatusBar li 
+{
+	float: left; background: #f4e9e2;
+	margin: 0; padding: 7px 28px; *padding: 7px 20px;
+}
+#OrderStatusBar .current{ background: #cae2f4; }
+
+/* order payment */
+#PayOnlineSec{ border: solid 5px #ddd; margin: 30px 40px 80px 30px; padding: 15px; }
+#PayOnlineSec img{ height: 33px; margin: 0; vertical-align: middle; }
+#PayOnlineSec a{ text-decoration: underline; }
+#PayOnlineSec #PayOnlineBtn{ margin: 20px 0 0; }
+#paymentInfo{ border-collapse:collapse; width:100%; text-align:left; }
+#paymentInfo th{ border:1px solid #ddd; background-color:#FBF7F4; padding: 5px 10px; text-align:left; }
+#paymentInfo th span{  color: #999; font-weight: normal; }
+#paymentInfo td{ border:1px solid #ddd; padding: 5px 10px; color:#666; }

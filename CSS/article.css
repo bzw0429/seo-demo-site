@@ -1,0 +1,8 @@
+﻿/*#cpc {height:200px;} */    /* 原来可以设置.pClass1{display:inline-block;} 但因为IE6不支持，故改成浮动布局*/
+ .cpcDiv{float:left; margin-right:35px; text-align:center; line-height:25px;}
+ .cpcDiv a{display:block;}
+ 
+ul {line-height:25px; font-size:12px;}
+ul a{text-decoration:none;}
+h2 {font-size:14px;}
+h2 a{text-decoration:none;}

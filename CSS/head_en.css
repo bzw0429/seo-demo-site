@@ -1,0 +1,214 @@
+.type_483D8B_overline {
+	font-size: 12px;
+	font-style: normal;
+	line-height: 20px;
+	font-weight: normal;
+	font-variant: normal;
+	text-transform: none;
+	color: #483D8B;
+	text-decoration: overline;
+	border-top-style: none;
+}
+.type_483D8B {
+	font-size: 12px;
+	font-style: normal;
+	line-height: 20px;
+	font-weight: normal;
+	font-variant: normal;
+	text-transform: none;
+	color: #483D8B;
+	text-decoration: none;
+	border-top-style: none;
+}
+.type_483D8B_12px {
+	font-size: 12px;
+	font-style: normal;
+	line-height: 20px;
+	font-weight: normal;
+	font-variant: normal;
+	text-transform: none;
+	color: #483D8B;
+	text-decoration: none;
+	border-top-style: none;
+	font-family: Arial, Helvetica, sans-serif;
+}
+.type_483D8B_12px_b {
+	font-size: 12px;
+	font-weight: bold;
+	color: #483D8B;
+	text-decoration: none;
+	font-style: normal;
+	font-variant: normal;
+	text-transform: none;
+	line-height: 20px;
+	font-family: Arial, Helvetica, sans-serif;
+}
+.type_483D8B_14px{
+	font-size: 14px;
+	color: #483D8B;
+	text-decoration: none;
+	font-style: normal;
+	line-height: 20px;
+	font-weight: normal;
+	font-variant: normal;
+	text-transform: none;
+	font-family: Arial, Helvetica, sans-serif;	
+}
+.type_483D8B_14px_B {
+	color: #483D8B;
+	font-size: 14px;
+	line-height: 20px;
+	font-weight: bold;
+	font-family: Arial, Helvetica, sans-serif;
+}
+.type_666666 {
+	font-size: 12px;
+	font-style: normal;
+	line-height: 20px;
+	font-weight: normal;
+	font-variant: normal;
+	text-transform: none;
+	color: #666666;
+	text-decoration: none;
+	border-top-style: none;
+}
+.type_666666_12px {
+	font-size: 12px;
+	font-style: normal;
+	line-height: 20px;
+	font-weight: normal;
+	font-variant: normal;
+	text-transform: none;
+	color: #666666;
+	text-decoration: none;
+	border-top-style: none;
+	font-family: Arial, Helvetica, sans-serif;
+}
+.type_666666_12px_sidebar {
+	height:20px;
+	font-size: 12px;
+	line-height: 20px;
+	color: #666666;
+	text-decoration: none;
+	font-family: Arial, Helvetica, sans-serif;
+}
+.white_12px {
+	font-size: 12px;
+	font-weight: normal;
+	color: #FFFFFF;
+	text-decoration: none;
+	font-style: normal;
+	font-variant: normal;
+	text-transform: none;
+	line-height: 20px;
+	font-family: Arial, Helvetica, sans-serif;
+}
+.white_12px_b {
+	font-size: 12px;
+	font-weight: bold;
+	color: #FFFFFF;
+	text-decoration: none;
+	font-style: normal;
+	font-variant: normal;
+	text-transform: none;
+	line-height: 20px;
+	font-family: Arial, Helvetica, sans-serif;
+}
+.white_14px {
+	font-size: 14px;
+	font-weight: normal;
+	color: #FFFFFF;
+	font-family: Arial, Helvetica, sans-serif;
+}
+.white_14px_b {
+	font-size: 14px;
+	font-weight: bold;
+	color: #FFFFFF;
+	font-family: Arial, Helvetica, sans-serif;
+}
+.type_083996_14px_B {
+	color: #083996;
+	font-size: 14px;
+	font-style: normal;
+	line-height: 20px;
+	font-weight: bold;
+	font-variant: normal;
+	text-transform: none;
+	text-decoration: none;
+}
+.Blue_12px {
+	font-size: 12px;
+	color: #0742B8;
+	text-decoration: none;
+	font-style: normal;
+	line-height: 20px;
+	font-weight: normal;
+	font-variant: normal;
+	text-transform: none;
+	font-family: Arial, Helvetica, sans-serif;
+}
+.Blue_2_12px_ {
+	color: #0742B8;;
+	font-size: 12px;
+	font-style: normal;
+	line-height: 20px;
+	font-weight: normal;
+	font-variant: normal;
+	text-transform: none;
+	text-decoration: none;
+	font-family: Arial, Helvetica, sans-serif;
+	text-decoration: underline;
+}
+.blue_12px_b{
+	font-size: 12px;
+	font-weight: bold;
+	color: #0742B8;
+	text-decoration: none;
+	font-style: normal;
+	font-variant: normal;
+	text-transform: none;
+	line-height: 20px;
+	font-family: Arial, Helvetica, sans-serif;
+}
+.Blue_14px{
+	font-size: 14px;
+	color: #0742B8;
+	text-decoration: none;
+	font-style: normal;
+	line-height: 20px;
+	font-weight: normal;
+	font-variant: normal;
+	text-transform: none;
+	font-family: Arial, Helvetica, sans-serif;	
+}
+.Blue_14px_b_2 {
+	font-size: 14px;
+	color: #0742B8;
+	text-decoration: none;
+	font-style: normal;
+	line-height: 20px;
+	font-weight: bold;
+	text-transform: none;
+	font-family: Arial, Helvetica, sans-serif;	
+}
+.Red_12px {
+	color: #FF0000;
+	font-size: 12px;
+	font-style: normal;
+	line-height: 20px;
+	font-weight: normal;
+	font-variant: normal;
+	text-transform: none;
+	text-decoration: none;
+}
+.type_696969_14px_b {
+	font-size: 14px;
+	font-weight: bolder;
+	color: #696969;
+	text-decoration: none;
+	font-style: normal;
+	font-variant: normal;
+	text-transform: none;
+	line-height: normal;
+	font-family: Arial, Helvetica, sans-serif;
+}
